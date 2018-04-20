@@ -1,0 +1,166 @@
+body{
+    margin: 0 auto;
+    background-color:white;
+    font-family:Georgia, Palatino, serif;
+
+
+  color: #000000; /* black */
+
+    line-height: 1;
+/    max-width: 960px;
+/    max-width: 800px;
+/    padding: 30px;
+    font-size: 18px;
+}
+
+.newspaper {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+
+img {
+     padding-top: 10px;
+     padding-right: 20px;
+     padding-bottom: 1px;
+     padding-left: 20px;
+  /  border: 1px solid;
+    max-width: 350px;
+    max-height: 350px;
+    white-space: pre-wrap;
+    align-content:center;
+}
+
+img.small {
+  max-width: 350px;
+  max-height: 300px;
+}
+
+img.lg {
+  max-width: 1500px;
+  max-height: 900px;
+}
+
+p   {
+/    font-size: 22px;
+    line-height: 150%;
+/    max-width: 540px;
+/    max-width: 960px;
+    font-weight: 400;
+     color: #333333
+}
+
+
+h1, h2, h3, h4 {
+/    color: #111111;
+    font-weight: 400;
+}
+
+h2, h3, h4, h5, h6, p {
+/    margin-bottom: 25px;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 1px;
+    font-size:200%;
+    font-variant:small-caps;
+ /  float: left;
+	clear: both;
+  padding-left: 10px;
+}
+
+h2 {
+    font-size:150%
+/    margin: 24px 0 6px;
+
+}
+
+h3 {
+    font-size:120%
+}
+h4 {
+    font-size:100%
+    font-variant:small-caps;
+
+}
+
+h5 {
+    float: left;
+/	clear: both;
+
+}
+
+h6 {
+    float: right;
+/	clear: both;
+}
+
+
+
+ul, ol {
+    padding: 0;
+    margin: 0px 0px 0px 50px;
+}
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+
+}
+
+li {
+     line-height:150%
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+
+
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    border-left:.5em solid #eee;
+    padding: 0 1em;
+    margin-left:200;
+	margin-right:20;
+
+}
+blockquote  cite {
+ /   font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {
+    color: #666;
+    max-width: 800px;
+}
+hr {
+/    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
